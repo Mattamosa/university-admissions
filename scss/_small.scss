@@ -36,15 +36,15 @@ header {
   display: grid;
   grid-template-columns: 51px auto 44px;
   align-items: center;
-  padding: 0.5rem 2vw;
+  padding: 0.8rem 2vw;
 }
 img {
   margin-left: 0.7rem;
 }
 h1 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: $boldWeight;
-  padding-left: 0.6rem;
+  padding-left: 1.3rem;
   color: $primaryColor;
 } // End of Header
 
@@ -80,6 +80,7 @@ nav {
     padding: 0.9rem 2vw;
     text-decoration: none;
     text-align: center;
+    font-weight: $boldWeight;
   } // End of Anchors
   ul li a:hover {
     color: $primaryColor;
@@ -98,6 +99,9 @@ div#mainWrapper {
     color: $secondaryColor;
     margin: 0.2rem 0;
     padding-left: 0;
+  }
+  p {
+    font-size: 1.2rem;
   }
 }
 

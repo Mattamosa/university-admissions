@@ -348,7 +348,7 @@ header {
   display: grid;
   grid-template-columns: 51px auto 44px;
   align-items: center;
-  padding: 0.5rem 2vw;
+  padding: 0.8rem 2vw;
 }
 
 img {
@@ -356,9 +356,9 @@ img {
 }
 
 h1 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 700;
-  padding-left: 0.6rem;
+  padding-left: 1.3rem;
   color: #ffd100;
 }
 
@@ -395,6 +395,7 @@ nav ul li a {
   padding: 0.9rem 2vw;
   text-decoration: none;
   text-align: center;
+  font-weight: 700;
 }
 nav ul li a:hover {
   color: #ffd100;
@@ -413,6 +414,9 @@ div#mainWrapper h1 {
   color: #00274e;
   margin: 0.2rem 0;
   padding-left: 0;
+}
+div#mainWrapper p {
+  font-size: 1.2rem;
 }
 
 form.my-form {
@@ -495,6 +499,9 @@ footer p {
   }
   header img {
     margin-left: 0.2rem;
+  }
+  header h1 {
+    font-size: 1.5rem;
   }
   /* NAVIGATION STUFF GOES HERE */
   div#hamburger,
@@ -581,6 +588,16 @@ footer p {
     max-width: 1240px;
     margin: auto;
   }
+  header {
+    padding: 0.9rem 0;
+  }
+  header img {
+    margin-left: 0.7rem;
+  }
+  header h1 {
+    margin-left: 0.6rem;
+    font-size: 1.6rem;
+  }
   /* NAVIGATION STUFF GOES HERE */
   nav ul {
     justify-content: right;
@@ -589,6 +606,7 @@ footer p {
     padding: 0.2rem 1rem;
     border-radius: 10px;
     margin: 0.5rem 0;
+    font-size: 1.2rem;
   }
   nav ul li.active a {
     margin-top: 0.2rem;
