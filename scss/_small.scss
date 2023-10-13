@@ -126,9 +126,14 @@ form.my-form {
   }
 }
 
-form.my-form label input[required] {
+/* REQUIRED FIELDS VALIDATION */
+form.my-form label input[required]:invalid {
   border-left: solid 3px red;
 }
+form.my-form label input[required]:valid {
+  border-left: solid 3px green;
+}
+
 /* REQUIRED INFOMATION / BOX WIDTH*/
 .my-form label input[type="text"],
 input[type="email"][name="email"],
