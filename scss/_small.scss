@@ -129,18 +129,23 @@ form.my-form {
 form.my-form label input[required] {
   border-left: solid 3px red;
 }
-/* REQUIRED INFOMATION */
+/* REQUIRED INFOMATION / BOX WIDTH*/
 .my-form label input[type="text"],
 input[type="email"][name="email"],
 input[type="text"][name="username"],
+input[name="Previous School"],
 input[type="tel"][name="phone"],
-input[type="password"][name="password"] {
+input[type="password"][name="password"],
+.my-form label select,
+.my-form label input[type="date"] {
   width: 75vw;
   border: 1px solid black;
   border-top-right-radius: 0.6rem;
   border-bottom-right-radius: 0.6rem;
   padding: 0.3rem;
+  background-color: #ffffff;
 }
+
 /* SUBMIT BUTTON STYLING */
 .my-form input[type="submit"] {
   width: 75vw;

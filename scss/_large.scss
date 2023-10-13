@@ -40,7 +40,9 @@ nav ul li.active a {
 input[type="email"][name="email"],
 input[type="text"][name="username"],
 input[type="tel"][name="phone"],
-input[type="password"][name="password"] {
+input[type="password"][name="password"],
+.my-form label select,
+.my-form label input[type="date"] {
   width: 30vw;
 }
 /* SUBMIT BUTTON STYLING */

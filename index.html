@@ -56,7 +56,7 @@
         <label>Email:<br><input type="email" name="email" autocomplete="email" required title="Your Email Please"></label>
         <label>Cell Phone:<br><input type="tel" name="phone" autocomplete="tel" required title="Cell Phone Here"></label>
         <!-- OPTIONAL CONTACT INFORMATION (TEXT)-->
-        <label>Address:<br><input type="text" name="address" autocomplete="street-address" title="Street Address Here"></label>
+        <label>Address:<br><input type="text" name="address" autocomplete="address-line1" title="Street Address Here"></label>
         <label>City:<br><input type="text" name="city" autocomplete="address-level2" title="Enter City Here"></label>
         <label>State:<br><input type="text" name="state" autocomplete="address-level1" title="Enter State Here"></label>
         <label>Zip:<br><input type="text" name="zip" autocomplete="postal-code" title="Enter Zip Code Here"></label>
@@ -88,7 +88,7 @@
         <h3>Account Information</h3>
         <label>Username (5-10 letters)<br><input type="text" name="username" required pattern="[A-Za-z]{5,10}" title="Please enter a username with 5-10 letters"></label>
         <!-- PASSWORD (TEXT + PATTERN) -->
-        <label>Password (at least 6 characters) <br><input type="password" name="password" required minlength="6" required pattern=".{6,}" title="6 Characters or more"></labeL>
+        <label>Password (at least 6 characters): <br><input type="password" name="password" required minlength="6" pattern=".{6,}" title="6 Characters or more"></label>
         <!-- SUBMIT BUTTON -->
         <input type="submit" value="Create my Account">
       </form>
