@@ -1,0 +1,95 @@
+/* HEADER */
+#headerWrapper {
+  border-bottom: 1px solid #eee;
+}
+
+header img {
+  margin-left: 0.2rem;
+}
+
+/* NAVIGATION STUFF GOES HERE */
+div#hamburger,
+div#closex {
+  display: none;
+}
+nav {
+  height: auto;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    li {
+      border: none;
+    }
+  }
+} // End of Navigation Buttons
+
+/* STRUCTURE STUFF GOES HERE */
+div#headerWrapper {
+  grid-row-start: 1;
+}
+div#navWrapper {
+  grid-row-start: 2;
+}
+div#mainWrapper {
+  grid-row-start: 3;
+}
+
+.my-form h3 {
+  font-size: 1.3rem;
+}
+
+/* REQUIRED INFOMATION */
+.my-form label input[type="text"],
+input[type="email"][name="email"],
+input[type="text"][name="username"],
+input[type="tel"][name="phone"],
+input[type="password"][name="password"] {
+  width: 40vw;
+}
+/* SUBMIT BUTTON STYLING */
+.my-form input[type="submit"] {
+  width: 40vw;
+  font-size: 1.2rem;
+}
+
+div#footerWrapper {
+  grid-row-start: 4;
+}
+
+div#headerWrapper {
+  border: none;
+}
+
+div#navWrapper {
+  background-color: #ffffff;
+}
+
+nav {
+  ul {
+    margin-bottom: 0;
+  }
+  ul li a {
+    color: $secondaryColor;
+    margin-bottom: 0;
+    padding: 0.5rem 0.5rem;
+    transition: transform 0.3s ease;
+  } // End of Anchors
+  ul li a:hover {
+    text-decoration: underline;
+    color: $secondaryColor;
+    transform: translateY(4px);
+  }
+  ul li.active a {
+    color: $primaryColor;
+    border: 1px solid none;
+    border-radius: 9px;
+    background-color: $secondaryColor;
+    padding: 8px 12px;
+    text-decoration: none;
+  }
+} // End of Navigation
+
+div#footerWrapper {
+  border: none;
+}

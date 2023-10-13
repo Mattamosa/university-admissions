@@ -1,0 +1,36 @@
+header,
+nav,
+main,
+footer {
+  max-width: 1240px;
+  margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE */
+nav ul {
+  justify-content: right;
+}
+
+nav ul li a {
+  padding: 0.2rem 1rem;
+  border-radius: 10px;
+  margin: 0.5rem 0;
+}
+
+nav ul li.active a {
+  margin-top: 0.2rem;
+}
+//padding: 4px 12px;
+/* REQUIRED INFOMATION */
+.my-form label input[type="text"],
+input[type="email"][name="email"],
+input[type="text"][name="username"],
+input[type="tel"][name="phone"],
+input[type="password"][name="password"] {
+  width: 30vw;
+}
+/* SUBMIT BUTTON STYLING */
+.my-form input[type="submit"] {
+  width: 30vw;
+  font-size: 1.2rem;
+}
